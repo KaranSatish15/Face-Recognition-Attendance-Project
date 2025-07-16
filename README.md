@@ -32,9 +32,12 @@ This project is an automated attendance system that leverages face recognition t
 
 2. **Install required packages:**
    ```bash
-   pip install -r requirements.txt
+   pip install -r cmake
+   pip install -r dlib
+   pip install -r face_recognition
+   pip install -r face_recognition_models
    ```
-   If `requirements.txt` is not available, install manually:
+   If the packages are not available, install manually:
    ```bash
    pip install opencv-python face_recognition numpy pandas
    ```
@@ -64,6 +67,7 @@ This project is an automated attendance system that leverages face recognition t
 ```
 Face-Recognition-Attendance-Project/
 │
+├── Basic.py
 ├── attendance.py
 ├── known_faces/
 │   ├── Alice.jpg
